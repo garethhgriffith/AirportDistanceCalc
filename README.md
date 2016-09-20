@@ -3,5 +3,5 @@
 
 ![Screenshot](https://raw.githubusercontent.com/garethhgriffith/README_IMAGES/master/airportDist.png "Screenshot")
 
-## Technologies Used:
+### Technologies Used:
 - HTML | CSS | Javascript | jQuery | jQueryUI | Bootstrap | Google Maps API | SITA Airport API
