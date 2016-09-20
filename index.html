@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Airport Distance Calculator</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="./css/jquery-ui-.min.css" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
+    <script src="./scripts/jquery.min.js"></script>
+    <script src="./scripts/jquery-ui.min.js"></script>
+    <script src="./scripts/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <div class="container">
+            <h2>Airport Distance Calculator</h2>
+            <form>
+                <div class="airport01-form form-group">
+                    <label class="sr-only" for="airport1">Airport One:</label>
+                    <input type="text" class="form-control" id="airport1" placeholder="From">
+                </div>
+                <div class="airport02-form form-group">
+                    <label class="sr-only" for="airport2">Airport Two:</label>
+                    <input type="text" class="form-control" id="airport2" placeholder="To">
+                </div>
+                <div class="airport-distance form-group">
+                    <label class="sr-only" for="distanceTotal">Total Distance</label>
+                    <input type="text" class="form-control" id="distanceTotal" placeholder="Total Distance" disabled>
+                </div>
+            </form>
+            <button type="submit" class="submit-btn btn btn-default">Submit</button>
+        </div>
+    </div>
+    <div id="map"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfimcgZIgvMg_5sQWesAYaDXej2qp3-_g&callback=initMap" async defer></script>
+    <script type="text/javascript" src="./scripts/main.js"></script>
+</body>
+
+</html>
