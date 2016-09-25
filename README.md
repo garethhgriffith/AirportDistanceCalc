@@ -3,5 +3,7 @@
 
 ![Screenshot](https://raw.githubusercontent.com/garethhgriffith/README_IMAGES/master/airportDist.png "Screenshot")
 
+### Link to application
+http://www.garethgriffith.com/flightCalc/
 ### Technologies Used:
 - HTML | CSS | Javascript | jQuery | jQueryUI | Bootstrap | Google Maps API | SITA Airport API
